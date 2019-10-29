@@ -24,7 +24,7 @@ border-bottom: 0;
 margin: 0;
 background: gray;
 }
-div:first-of-type{
+b{
   height: 150px;
 }
 
@@ -33,7 +33,6 @@ div:first-of-type{
   height: 250px;
  
 }
-
 
 footer{
 width: 480px;
