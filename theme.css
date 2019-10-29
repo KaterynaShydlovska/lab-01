@@ -1,0 +1,6 @@
+.boxes div:nth-child(2){
+  border-left: 0;
+}
+.boxes div:nth-child(4){
+  border-left: 0;
+}
