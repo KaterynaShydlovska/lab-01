@@ -10,6 +10,8 @@ p{
 text-align: center;
 padding: 40px 0 40px 0; 
 }
+/* @media screen and (min-width: 769px) and (max-width: 961px) { */
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -23,6 +25,7 @@ padding: 40px 0 40px 0;
     width: 960px;
     height: 100px;
     /* border: 1px solid black; */
+    background-color: wheat;
   }
  
   div{
@@ -36,13 +39,33 @@ padding: 40px 0 40px 0;
     height: 600px;
     float:left;
     border-right:0;
+    background-color: aquamarine;
   }
   .boxes div{
     width: 190px;
     height: 250px;
     display: inline-block;
+    background-color: blanchedalmond;
    
   }
+  div:nth-child(6){
+background-color: brown;
+}
+.boxes div:nth-child(1){
+  background-color: orange;
+}
+.boxes div:nth-child(2){
+  
+  background-color: plum;
+}
+div:nth-of-type(3){
+background-color: rgb(47, 83, 47);
+}
+
+.boxes div:nth-child(4){
+  
+  background-color: rgb(42, 21, 61);
+}
  
 
   footer{
@@ -50,4 +73,36 @@ padding: 40px 0 40px 0;
     height: 150px;
     float: left;
   }
+} 
+
+/* Small devices (mobile, 500px ) */
+ @media only screen and (max-width: 600px) {
+  div{
+    display: flex;
+    flex-direction: column;
+  }
+  header{
+    background-color: rgb(214, 131, 21);
+  }
+    div:nth-child(6){
+background-color: white;
+}
+.boxes div:nth-child(1){
+  background-color: rgb(0, 255, 179);
+}
+.boxes div:nth-child(2){
+  
+  background-color: rgb(71, 13, 71);
+}
+div:nth-of-type(3){
+background-color: rgb(155, 161, 155);
+}
+
+.boxes div:nth-child(4){
+  
+  background-color: rgb(214, 132, 94);
+}
+footer{
+  background-color: rgb(112, 87, 136);
+}
 } 
